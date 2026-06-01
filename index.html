@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mirza Sultan Moinuddin | Project Manager</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Mirza Sultan Moinuddin | AI Project Manager</title>
 
 <style>
 
@@ -16,304 +12,232 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Inter',sans-serif;
 }
 
 body{
+font-family:'Segoe UI',sans-serif;
 background:#f5f7fa;
-color:#222;
-line-height:1.7;
-}
-
-.container{
-width:90%;
-max-width:1200px;
-margin:auto;
+color:#333;
+line-height:1.6;
 }
 
 header{
-background:white;
-border-bottom:1px solid #e5e7eb;
-padding:80px 0;
+background:#0F172A;
+color:white;
+padding:70px 20px;
+text-align:center;
 }
 
-.hero{
-display:flex;
-justify-content:space-between;
-align-items:center;
-flex-wrap:wrap;
-gap:40px;
-}
-
-.hero-left{
-flex:1;
-min-width:300px;
-}
-
-.hero-right{
-flex:1;
-min-width:300px;
-}
-
-h1{
+header h1{
 font-size:48px;
-font-weight:700;
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
-.subtitle{
-font-size:22px;
-color:#2563eb;
-font-weight:600;
+header h2{
+font-size:24px;
+font-weight:400;
 margin-bottom:20px;
 }
 
-.summary{
+.tagline{
 font-size:18px;
-color:#555;
-max-width:700px;
+color:#cbd5e1;
 }
 
-.badges{
-margin-top:30px;
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-}
-
-.badge{
-padding:10px 18px;
-background:#eef2ff;
-border-radius:30px;
-font-size:14px;
-font-weight:600;
-}
-
-.executive-card{
-background:white;
-padding:30px;
-border-radius:12px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
-
-.executive-card h3{
-margin-bottom:20px;
-}
-
-.metric{
-display:flex;
-justify-content:space-between;
-padding:12px 0;
-border-bottom:1px solid #eee;
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
 }
 
 section{
-padding:70px 0;
-}
-
-.section-title{
-font-size:32px;
-margin-bottom:40px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
 background:white;
-padding:25px;
+margin-bottom:25px;
+padding:30px;
 border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
-.card h3{
-margin-bottom:15px;
+h2{
+color:#2563EB;
+margin-bottom:20px;
 }
 
-.timeline{
-display:flex;
-flex-direction:column;
-gap:25px;
+.skills span{
+display:inline-block;
+background:#DBEAFE;
+color:#1E40AF;
+padding:10px 15px;
+margin:5px;
+border-radius:20px;
+font-size:14px;
 }
 
-.timeline-item{
-background:white;
-padding:25px;
-border-left:5px solid #2563eb;
-border-radius:8px;
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+.kpi-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.kpi-card{
+background:#EFF6FF;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.kpi-card h3{
+font-size:32px;
+color:#1E40AF;
 }
 
 .case-study{
-background:white;
-padding:30px;
-border-radius:12px;
+border-left:5px solid #2563EB;
+padding-left:20px;
 margin-bottom:25px;
-box-shadow:0 5px 15px rgba(0,0,0,.05);
 }
 
-.case-study h3{
-margin-bottom:15px;
-}
-
-.case-study p{
-margin-bottom:15px;
-}
-
-.case-study ul{
-padding-left:20px;
-}
-
-.philosophy{
-background:#0f172a;
+.button{
+display:inline-block;
+background:#2563EB;
 color:white;
-padding:50px;
-border-radius:12px;
+padding:12px 22px;
+text-decoration:none;
+border-radius:6px;
+margin-top:10px;
 }
 
-.philosophy ul{
-padding-left:20px;
-margin-top:20px;
+.tools{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:10px;
 }
 
-.contact{
-background:white;
-padding:40px;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+.tool{
+background:#F3F4F6;
+padding:12px;
+border-radius:6px;
+text-align:center;
+}
+
+.testimonial{
+background:#F8FAFC;
+padding:20px;
+border-left:4px solid #2563EB;
+margin-bottom:15px;
 }
 
 footer{
-background:white;
-border-top:1px solid #e5e7eb;
+background:#0F172A;
+color:white;
 text-align:center;
-padding:30px;
-margin-top:50px;
+padding:25px;
 }
 
-@media(max-width:768px){
-
-h1{
-font-size:36px;
-}
-
-.hero{
-flex-direction:column;
-}
-
+ul{
+padding-left:20px;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <header>
 
-<div class="container">
-
-<div class="hero">
-
-<div class="hero-left">
-
 <h1>Mirza Sultan Moinuddin</h1>
 
-<div class="subtitle">
-Project Manager | AI Transformation | PMO Governance
-</div>
+<h2>AI Project Manager | AI PMO Lead | GenAI Delivery Manager</h2>
 
-<p class="summary">
-
-PMP-certified project manager with experience supporting enterprise transformation initiatives across financial services, telecommunications, and technology environments. Experienced in governance, stakeholder management, Agile delivery, cloud modernization, and emerging AI programs.
-
+<p class="tagline">
+Delivering Strategic AI, Cloud & Digital Transformation Programs with Precision and Leadership
 </p>
 
-<div class="badges">
+<br>
 
-<div class="badge">PMP®</div>
-<div class="badge">PMI-ACP®</div>
-<div class="badge">AI-900</div>
-<div class="badge">AWS AI Practitioner</div>
-<div class="badge">Google GenAI Leader</div>
+<p>
+📧 mirzasultanmoinuddin@hotmail.com
+|
+📱 +966545061422
+|
+📍 Dubai, UAE
+</p>
 
-</div>
+<br>
 
-</div>
-
-<div class="hero-right">
-
-<div class="executive-card">
-
-<h3>Executive Snapshot</h3>
-
-<div class="metric">
-<span>Experience</span>
-<strong>7+ Years</strong>
-</div>
-
-<div class="metric">
-<span>Industries</span>
-<strong>Financial Services, Telecom</strong>
-</div>
-
-<div class="metric">
-<span>Methodologies</span>
-<strong>Agile, Scrum, Waterfall</strong>
-</div>
-
-<div class="metric">
-<span>Cloud Platforms</span>
-<strong>Azure, AWS, GCP</strong>
-</div>
-
-<div class="metric">
-<span>Focus Areas</span>
-<strong>AI, PMO, Digital Transformation</strong>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+<a class="button" href="MirzaSM PM.pdf" target="_blank">
+Download Resume
+</a>
 
 </header>
 
-<section>
-
 <div class="container">
 
-<h2 class="section-title">What I Deliver</h2>
+<section>
 
-<div class="grid">
+<h2>Executive Summary</h2>
 
-<div class="card">
-<h3>Program Governance</h3>
-<p>Executive reporting, steering committee management, risk oversight and portfolio visibility.</p>
-</div>
+<p>
 
-<div class="card">
-<h3>Transformation Delivery</h3>
-<p>Coordinating enterprise initiatives involving cloud, automation and AI capabilities.</p>
-</div>
+AI Project Manager and AI PMO Lead with 7+ years of experience delivering enterprise AI,
+Cloud, Digital Transformation, and GenAI initiatives across global organizations.
 
-<div class="card">
-<h3>Stakeholder Alignment</h3>
-<p>Bringing together business leaders, vendors, PMOs and technical delivery teams.</p>
-</div>
+Proven success managing multi-million-dollar programs, AI governance frameworks,
+LLM integrations, PMO operations, stakeholder management, and globally distributed teams.
 
-<div class="card">
-<h3>Operational Visibility</h3>
-<p>Building dashboards, reporting frameworks and governance mechanisms for leadership.</p>
-</div>
+Certified PMP, PMI-ACP, Microsoft AI-900, AWS AI Practitioner, Oracle Primavera P6,
+Google Cloud GenAI Leader, and Master of Science in IT Project Management.
 
-</div>
+</p>
+
+</section>
+
+<section>
+
+<h2>Professional Profile</h2>
+
+<ul>
+
+<li>Leadership of enterprise AI and Digital Transformation programs</li>
+
+<li>Agile, Waterfall, Hybrid, Scrum, SAFe delivery methodologies</li>
+
+<li>Executive stakeholder engagement and governance reporting</li>
+
+<li>Portfolio management and PMO governance alignment</li>
+
+<li>AI lifecycle management and AI deployment coordination</li>
+
+<li>Cross-functional leadership across business and technology teams</li>
+
+<li>Risk, compliance, quality, and change management</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Skills & Competencies</h2>
+
+<div class="skills">
+
+<span>AI Project Delivery</span>
+<span>AI PMO Governance</span>
+<span>GenAI Programs</span>
+<span>AI Governance</span>
+<span>LLM Integrations</span>
+<span>RAG Coordination</span>
+<span>Prompt Engineering</span>
+<span>Portfolio Management</span>
+<span>Program Governance</span>
+<span>Agile Delivery</span>
+<span>Cloud Transformation</span>
+<span>Stakeholder Management</span>
+<span>Risk Management</span>
+<span>Executive Reporting</span>
+<span>Change Management</span>
+<span>Digital Transformation</span>
 
 </div>
 
@@ -321,109 +245,217 @@ PMP-certified project manager with experience supporting enterprise transformati
 
 <section>
 
-<div class="container">
+<h2>Certifications & Education</h2>
 
-<h2 class="section-title">Career Experience</h2>
+<ul>
 
-<div class="timeline">
+<li>PMP – Project Management Professional</li>
 
-<div class="timeline-item">
-<h3>Discover Financial Services</h3>
-<p><strong>IT Project Manager – AI & Digital Transformation</strong></p>
-<p>2023 – 2026</p>
-</div>
+<li>PMI-ACP – Agile Certified Practitioner</li>
 
-<div class="timeline-item">
-<h3>Radiant Digital Solutions</h3>
-<p><strong>IT Project Coordinator</strong></p>
-<p>2018 – 2022</p>
-</div>
+<li>Microsoft Azure AI Fundamentals (AI-900)</li>
 
-</div>
+<li>AWS Certified AI Practitioner</li>
 
-</div>
+<li>Google Cloud Generative AI Leader</li>
+
+<li>Oracle Primavera P6 Certified</li>
+
+<li>Master of Science – IT Project Management, Indiana Wesleyan University (USA)</li>
+
+</ul>
 
 </section>
 
 <section>
 
-<div class="container">
-
-<h2 class="section-title">Representative Engagements</h2>
+<h2>Project Case Studies</h2>
 
 <div class="case-study">
 
-<h3>Enterprise AI Governance Initiative</h3>
+<h3>Enterprise AI Transformation Program</h3>
 
-<p><strong>Challenge:</strong></p>
+<p>
 
-<p>Multiple transformation workstreams required a structured governance approach for reporting, risk management and executive visibility.</p>
+Managed multi-million-dollar AI and cloud transformation initiatives
+across Azure, AWS, and GCP ecosystems.
 
-<p><strong>Approach:</strong></p>
+</p>
 
-<p>Established reporting standards, governance reviews, stakeholder communication plans and portfolio-level oversight.</p>
+<br>
 
-<p><strong>Outcome:</strong></p>
+<b>Results:</b>
 
 <ul>
+
+<li>Directed 20+ global team members</li>
+
+<li>Managed 3–4 concurrent transformation programs</li>
+
+<li>Improved reporting efficiency by 25%</li>
+
+<li>Strengthened governance and delivery controls</li>
+
+</ul>
+
+</div>
+
+<div class="case-study">
+
+<h3>GenAI & LLM Integration Initiative</h3>
+
+<p>
+
+Led enterprise adoption initiatives involving ChatGPT,
+Azure OpenAI, and GitHub Copilot.
+
+</p>
+
+<br>
+
+<b>Results:</b>
+
+<ul>
+
+<li>Accelerated operational workflows</li>
+
+<li>Improved sprint reporting quality</li>
+
+<li>Supported AI governance initiatives</li>
+
+<li>Enhanced enterprise AI adoption</li>
+
+</ul>
+
+</div>
+
+<div class="case-study">
+
+<h3>AI PMO Governance Program</h3>
+
+<p>
+
+Established AI PMO governance frameworks for enterprise programs.
+
+</p>
+
+<br>
+
+<b>Results:</b>
+
+<ul>
+
+<li>Reduced reporting cycle by 30%</li>
+
 <li>Improved executive visibility</li>
-<li>Standardized reporting practices</li>
-<li>Enhanced decision-making support</li>
+
+<li>Strengthened risk controls</li>
+
+<li>Enhanced portfolio governance maturity</li>
+
 </ul>
 
 </div>
 
-<div class="case-study">
+</section>
 
-<h3>Cloud Transformation Coordination</h3>
+<section>
 
-<p><strong>Challenge:</strong></p>
+<h2>PMO Dashboard Metrics</h2>
 
-<p>Support delivery teams working across Azure, AWS and Google Cloud environments.</p>
+<div class="kpi-grid">
 
-<p><strong>Approach:</strong></p>
+<div class="kpi-card">
+<h3>7+</h3>
+<p>Years Experience</p>
+</div>
 
-<p>Managed schedules, governance activities, stakeholder communication and delivery reporting.</p>
+<div class="kpi-card">
+<h3>$20M+</h3>
+<p>Budget Oversight</p>
+</div>
 
-<p><strong>Outcome:</strong></p>
+<div class="kpi-card">
+<h3>20+</h3>
+<p>Global Team Members</p>
+</div>
+
+<div class="kpi-card">
+<h3>25%</h3>
+<p>Reporting Efficiency Gain</p>
+</div>
+
+<div class="kpi-card">
+<h3>30%</h3>
+<p>Governance Cycle Reduction</p>
+</div>
+
+<div class="kpi-card">
+<h3>90%+</h3>
+<p>Stakeholder Satisfaction</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Tools & Platforms</h2>
+
+<div class="tools">
+
+<div class="tool">Jira</div>
+<div class="tool">Azure DevOps</div>
+<div class="tool">MS Project</div>
+<div class="tool">Power BI</div>
+<div class="tool">Confluence</div>
+<div class="tool">ServiceNow</div>
+<div class="tool">Primavera P6</div>
+<div class="tool">Smartsheet</div>
+<div class="tool">Asana</div>
+<div class="tool">Monday.com</div>
+<div class="tool">ClickUp</div>
+<div class="tool">GitHub</div>
+<div class="tool">Azure OpenAI</div>
+<div class="tool">AWS</div>
+<div class="tool">Google Cloud</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Awards & Recognition</h2>
 
 <ul>
-<li>Improved alignment across teams</li>
-<li>Reduced delivery bottlenecks</li>
-<li>Strengthened governance controls</li>
-</ul>
 
-</div>
+<li>AI Transformation Leadership Excellence</li>
 
-</div>
+<li>PMO Governance Excellence</li>
 
-</section>
+<li>Cloud Modernization Leadership</li>
 
-<section>
-
-<div class="container">
-
-<div class="philosophy">
-
-<h2>Leadership Philosophy</h2>
-
-<ul>
-
-<li>Transparency over surprises</li>
-
-<li>Data-driven decision making</li>
-
-<li>Early risk identification and mitigation</li>
-
-<li>Business outcomes before technology</li>
-
-<li>Strong governance with Agile flexibility</li>
-
-<li>Consistent stakeholder engagement</li>
+<li>Digital Transformation Delivery Excellence</li>
 
 </ul>
 
+</section>
+
+<section>
+
+<h2>Testimonials</h2>
+
+<div class="testimonial">
+
+"Mirza consistently delivered complex transformation programs while maintaining strong governance and stakeholder alignment."
+
 </div>
+
+<div class="testimonial">
+
+"Exceptional leadership in AI and cloud delivery initiatives with a focus on measurable business outcomes."
 
 </div>
 
@@ -431,61 +463,29 @@ PMP-certified project manager with experience supporting enterprise transformati
 
 <section>
 
-<div class="container">
+<h2>Contact & Availability</h2>
 
-<h2 class="section-title">Certifications</h2>
+<p><b>Email:</b> mirzasultanmoinuddin@hotmail.com</p>
 
-<div class="grid">
+<p><b>WhatsApp:</b> +966545061422</p>
 
-<div class="card">PMP®</div>
+<p><b>Location:</b> Dubai, UAE</p>
 
-<div class="card">PMI-ACP®</div>
-
-<div class="card">Microsoft Azure AI Fundamentals (AI-900)</div>
-
-<div class="card">AWS Certified AI Practitioner</div>
-
-<div class="card">Google Cloud Generative AI Leader</div>
-
-<div class="card">Oracle Primavera P6</div>
-
-</div>
-
-</div>
+<p><b>LinkedIn:</b> Add your LinkedIn URL here</p>
 
 </section>
 
-<section>
-
-<div class="container">
-
-<div class="contact">
-
-<h2>Contact</h2>
-
-<p><strong>Name:</strong> Mirza Sultan Moinuddin</p>
-
-<p><strong>Location:</strong> Dubai, UAE</p>
-  <p><strong>Phone:</strong> +966545061422</p>
-
-<p><strong>Email:</strong> mirzasultanmoinuddin@hotmail.com</p>
-
-<p><strong>LinkedIn:</strong> linkedin.com/in/mirza-sultan-moinuddin-pmp®-pmi-acp®-b3747917a</p>
-
 </div>
-
-</div>
-
-</section>
 
 <footer>
 
-<p>
-Mirza Sultan Moinuddin | Project Management | PMO Governance | AI Transformation
-</p>
+© 2026 Mirza Sultan Moinuddin
+
+<br>
+
+AI Project Manager | AI PMO Lead | GenAI Delivery Manager
 
 </footer>
 
 </body>
-
 </html>
